@@ -7,6 +7,8 @@ This HiLo number guessing game is a simple Java console application where player
 Java: The game is implemented in Java, making use of basic constructs such as loops, conditionals, and user input handling.
 
 JDK (Java Development Kit): Required to compile and run the Java application 
+
+Integrated Development Environment (IDE): Eclipse
  
 
 ### Lessons Learned
