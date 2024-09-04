@@ -12,7 +12,7 @@ public class HiLo {
 			double randomNum = Math.floor(Math.random() * 20 + 1);
 			boolean hasWon = false;
 
-			System.out.println("Please guess a random number between 1 and 20: ");
+			System.out.println("Please guess a random number between 1 and 20. You only get 5 tries! Let's Play: ");
 			double userNum = scanner.nextDouble();
 
 			if (userNum == randomNum) {
@@ -30,6 +30,7 @@ public class HiLo {
                 if (userNum == randomNum) {
     				System.out.println("You win! These numbers are equal.");
     				hasWon = true;
+    				break;
     			} else if (userNum < randomNum) {
     				System.out.println("Incorrect. Too Low!");
     			} else if (userNum > randomNum) {
@@ -49,7 +50,7 @@ public class HiLo {
 			if (userChoice.equals("yes")) {
 				continue;
 			} else {
-				System.out.println("Thanks for playing. Goodbye");
+				System.out.println("Thanks for playing. Goodbye!");
 				break;
 			}
 			
